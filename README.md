@@ -38,8 +38,8 @@ Run LocalPDF Hub on one computer, let everyone in your local network access it f
 
 **Ideal for:**
 - Small offices that share a common PDF toolkit
-- Accounting, legal and administrative teams handling sensitive documents
-- Anyone who wants a private, self-hosted alternative to iLovePDF or SmallPDF
+- Administrative teams handling sensitive documents locally
+- Anyone who needs a private, self-hosted PDF toolkit
 
 > ⚠️ Network Mode is designed for **trusted internal networks** (home or office LAN) and does not include authentication. **Never expose the service port to the public internet.**
 
@@ -75,6 +75,17 @@ To proceed:
 - Then click **"Run anyway"**
 
 LocalPDF Hub does not contain malware and does not make any outbound network connections.
+
+### 🛡️ Windows Defender flagged the file?
+
+Some users report that Windows Defender may flag `LocalPDF-Hub.exe` as a virus (typically as `Trojan:Win32/Wacatac.B!ml` or similar). **This is a well-known false positive** affecting many legitimate indie apps packaged with PyInstaller.
+
+**👉 See the full explanation and step-by-step instructions:** [ANTIVIRUS.md](./ANTIVIRUS.md)
+
+The guide covers:
+- Why it happens (technical explanation)
+- How to verify the file is safe yourself (VirusTotal, SHA256, TCPView)
+- How to allow the file on Windows 10 / 11 (3 different methods)
 
 ### Windows 7 compatibility
 

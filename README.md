@@ -103,9 +103,22 @@ LocalPDF Hub is built around one principle: **your files never leave your device
 
 ## 💬 Support & Contact
 
-- **Email:** localpdfhub.contact@gmail.com
-- **Report a bug:** open an [Issue](https://github.com/alaancuevas/LocalPDF-Hub-releases/issues)
-- **Support the project:** [MercadoPago](https://link.mercadopago.com.ar/alaancuevas) · [PayPal](https://paypal.me/jinji102)
+All communication happens through **GitHub Issues** — it's public, searchable, and keeps the conversation transparent for everyone.
+
+- **🐛 Report a bug:** [Open a new issue](https://github.com/alaancuevas/LocalPDF-Hub-releases/issues/new?labels=bug)
+- **💡 Request a feature:** [Open a feature request](https://github.com/alaancuevas/LocalPDF-Hub-releases/issues/new?labels=enhancement)
+- **❓ Ask a question:** [Browse existing issues](https://github.com/alaancuevas/LocalPDF-Hub-releases/issues) or open a new one
+
+Before opening an issue, please check if someone else already reported the same thing — it saves time for everyone.
+
+### ❤️ Support the project
+
+If LocalPDF Hub saved you time or helped your work, consider buying me a coffee:
+
+- [**MercadoPago**](https://link.mercadopago.com.ar/alaancuevas) (for Argentina / LATAM)
+- [**PayPal**](https://paypal.me/jinji102) (international)
+
+Every contribution helps keep the project alive and free forever.
 
 ---
 

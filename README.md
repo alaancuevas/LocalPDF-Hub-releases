@@ -45,6 +45,17 @@ Run LocalPDF Hub on one computer, let everyone in your local network access it f
 
 ---
 
+## ⚙️ Background Processes & Transparency
+
+To guarantee a smooth user experience and keep your system clean, **LocalPDF Hub** performs several critical operations completely invisibly and automatically:
+
+- **Silent Conversion Engine** — When converting a Word file to PDF, the system internally communicates with Microsoft Word (via COM interface) or activates a fallback engine using LibreOffice (headless mode). **No window from these applications will ever open during the process** — the document is rendered and exported to PDF completely opaquely and transparently.
+- **Local Server in the System Tray** — The application is not just a web page, it's a genuine local server. On launch, it silently docks into the system tray (next to the Windows clock). This means you can safely close the browser tab — the processing engine stays alive in the background until you right-click the icon and select "Close LocalPDF Hub".
+- **Automatic Residue Cleanup (Zero Clutter)** — The system uses scheduled tasks (`BackgroundTasks`) to manage storage. Immediately after you download your final PDF or ZIP, a hidden process **permanently deletes all temporary files** used during the session, ensuring no traces of sensitive documents remain on your hard drive and no junk files occupy space.
+- **Automatic Health Check** — On page load, the frontend silently verifies connectivity to the server through the `/health` endpoint. A small visual indicator confirms the status, so you know immediately if something isn't working before you try to process a file.
+
+---
+
 ## 🛠 Installation
 
 1. Download `LocalPDF-Hub.exe` from the [Releases](https://github.com/alaancuevas/LocalPDF-Hub-releases/releases/latest) page.

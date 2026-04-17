@@ -10,17 +10,25 @@
 
 ## Reporting a vulnerability
 
-If you find a security issue in LocalPDF Hub, please do **not** open a public issue.
+If you find a security issue in LocalPDF Hub, please do **not** open a public issue — vulnerabilities should be reported privately so they can be patched before being disclosed.
 
-Contact directly: localpdfhub.contact@gmail.com
+**Report through GitHub's private security advisory system:**
 
-Include:
+👉 [**Report a vulnerability**](https://github.com/alaancuevas/LocalPDF-Hub-releases/security/advisories/new)
+
+This opens a private channel between you and the maintainer. Only invited collaborators can see the report until a fix is released.
+
+### What to include
+
 - Description of the vulnerability
 - Steps to reproduce
 - Potential impact
 - Version affected
+- Any suggested mitigation (optional)
 
-You will receive a response within 72 hours.
+You will receive a response within 72 hours. Valid reports will be credited in the release notes once the fix is published (unless you prefer to remain anonymous).
+
+---
 
 ## Scope
 

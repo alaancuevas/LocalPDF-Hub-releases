@@ -41,6 +41,14 @@ Run LocalPDF Hub on one computer, let everyone in your local network access it f
 - Administrative teams handling sensitive documents locally
 - Anyone who needs a private, self-hosted PDF toolkit
 
+**👉 See the full setup guide:** [NETWORK-MODE.md](./NETWORK-MODE.md)
+
+The guide covers:
+- How to enable Network Mode in 3 steps (~2 minutes)
+- Firewall configuration and troubleshooting
+- Tips for everyday use (auto-start, fixed IP)
+- Security best practices for your LAN
+
 > ⚠️ Network Mode is designed for **trusted internal networks** (home or office LAN) and does not include authentication. **Never expose the service port to the public internet.**
 
 ---
